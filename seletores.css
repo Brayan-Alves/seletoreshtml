@@ -6,9 +6,9 @@ body {
 #topo-principal {
     background-color: #41431B;
     color: #f4f4f4;
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3); /*sombreamento*/
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px; /*deixa borda*/
 }
 
 .card {
@@ -17,7 +17,7 @@ body {
     width: 200px;
     padding: 15px;
     margin: 10px;
-    display: inline-block;
+    display: inline-block; 
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3); /*horizonte vertical desfoque expansão cor*/
     border: 3px solid #F8F3E1;
 }
@@ -48,6 +48,6 @@ nav ul li:nth-child(2){
 
 nav ul {
     display: flex;
-    gap: 30px;
-    list-style: none;
+    gap: 30px; /*distancia entre elementos*/
+    list-style: none; /*remove a bolinha da lista*/
 }
