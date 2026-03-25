@@ -4,36 +4,50 @@ body {
 }
 
 #topo-principal {
-    background-color: #333;
+    background-color: #41431B;
     color: #f4f4f4;
-    padding: 20px
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .card {
-    background-color: white;
+    background-color: #AEB784;
     border-radius: 10px;
     width: 200px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+    border: 3px solid #F8F3E1;
 }
 
 p span{
     font-weight: bold;
-    color: blue
+    color: #E3DBBB;
 }
 
 h1, h2{
-    color: #2c3e50;
+    color: white;
 }
 
 .card.destaque {
-    border: 3px solid gold;
+    border: 3px solid gray;
     transform: scale(1.05);
 }
 
 button:hover{
-    background-color: #27ae60;
+    background-color: #41431B;
+    color: white;
     cursor: pointer;
 }
 
 nav ul li:nth-child(2){
     text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
 }
